@@ -52,6 +52,42 @@ uvicorn src.main:app --reload
 A aplicação estará disponível em `http://127.0.0.1:8000`.
 
 
+## Troubleshooting
+
+### Erro na instalação do pyenv 3.12.4 no Linux.
+
+```bash
+regis@pop-os:~$ pyenv install 3.12:latest
+Downloading Python-3.12.4.tar.xz...
+-> https://www.python.org/ftp/python/3.12.4/Python-3.12.4.tar.xz
+Installing Python-3.12.4...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/regis/.pyenv/versions/3.12.4/lib/python3.12/tkinter/__init__.py", line 38, in <module>
+    import _tkinter # If this fails your Python may not be configured for Tk
+    ^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named '_tkinter'
+WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?
+Installed Python-3.12.4 to /home/regis/.pyenv/versions/3.12.4
+```
+
+**Solução:** https://github.com/pyenv/pyenv/wiki#suggested-build-environment
+
+
+## Passo a passo de como começar um projeto do zero
+
+```bash
+poetry new fast_zero
+cd fast_zero
+```
+
+
+### Rodando a aplicação
+
+```bash
+fastapi dev fast_zero/app.py
+```
+
 ## Agradecimentos
 
 - [Eduardo Mendes](https://github.com/dunossauro/fastapi-do-zero), pelo excelente [curso de FastAPI](https://fastapidozero.dunossauro.com/).
