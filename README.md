@@ -109,6 +109,21 @@ Quando for rodar os testes com email vai precisar instalar o seguinte pacote:
 poetry add "pydantic[email]"
 ```
 
+#### Testando o schemas
+
+Podemos testar o schemas rodando o shell iterativo
+
+```bash
+python -i fast_zero/schemas.py
+```
+
+E depois
+
+```python
+UserSchema(username='rg3915', email='rg3915@email.com', password='1234')
+```
+
+
 
 ## Agradecimentos
 
