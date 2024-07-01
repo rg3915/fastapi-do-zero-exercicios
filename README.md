@@ -88,6 +88,12 @@ cd fast_zero
 fastapi dev fast_zero/app.py
 ```
 
+ou
+
+```bash
+uvicorn fast_zero.app:app
+```
+
 ## Agradecimentos
 
 - [Eduardo Mendes](https://github.com/dunossauro/fastapi-do-zero), pelo excelente [curso de FastAPI](https://fastapidozero.dunossauro.com/).
