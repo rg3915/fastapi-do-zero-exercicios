@@ -2,6 +2,13 @@
 
 Implementação do [curso de FastAPI](https://fastapidozero.dunossauro.com/) do [Eduardo Mendes](https://github.com/dunossauro/fastapi-do-zero) do canal [Live de Python](https://www.youtube.com/@Dunossauro) e os **exercícios propostos**.
 
+Playlist completa
+
+<a href="https://youtube.com/playlist?list=PLOQgLBuj2-3IuFbt-wJw2p2NiV9WTRzIP&si=K_9UbtB-WKjSwYT6">
+    <img src="img/youtube.png">
+</a>
+
+
 
 ## Descrição do Projeto
 
@@ -93,6 +100,15 @@ ou
 ```bash
 uvicorn fast_zero.app:app
 ```
+
+#### Email
+
+Quando for rodar os testes com email vai precisar instalar o seguinte pacote:
+
+```bash
+poetry add "pydantic[email]"
+```
+
 
 ## Agradecimentos
 
