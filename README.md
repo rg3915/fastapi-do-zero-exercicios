@@ -123,6 +123,11 @@ E depois
 UserSchema(username='rg3915', email='rg3915@email.com', password='1234')
 ```
 
+[SQLAlchemy: conceitos básicos, uma introdução a versão 2 | Live de Python #258](https://www.youtube.com/watch?v=t4C1c62Z4Ag)
+
+[Migrações, bancos de dados evolutivos (Alembic e SQLAlchemy) | Live de Python #211](https://www.youtube.com/watch?v=yQtqkq9UkDA)
+
+
 
 
 ## Agradecimentos
