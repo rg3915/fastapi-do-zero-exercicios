@@ -177,3 +177,10 @@ pyrightconfig.json
 
 # Generated using ignr.py - github.com/Antrikshy/ignr.py
 
+*.cast
+.DS_Store
+.idea
+.ipynb_checkpoints/
+.vscode
+media/
+staticfiles/
