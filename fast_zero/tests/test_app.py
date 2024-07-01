@@ -26,6 +26,10 @@ def test_create_user(client):
 
 
 def test_read_users(client):
+    """
+    Este teste depende do teste test_create_user,
+    então a ordem importa.
+    """
     response = client.get('/users/')
     assert response.status_code == HTTPStatus.OK
     assert response.json() == {
